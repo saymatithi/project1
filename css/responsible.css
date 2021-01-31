@@ -1,0 +1,67 @@
+@media screen and (max-width: 1244px) {
+    .title-item{
+        width: 106px;
+     
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    header, .video-section, .bannar, footer, .row-section, .body{
+        width: 1300px;
+        margin: 0 auto;
+     
+    }
+    .row-item{
+        width: 296px;
+    }
+
+  }
+  .modal {
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 58px;
+    left: -1px;
+    right: 7px;
+  }
+  input{
+    margin-left: 0;
+    font-size: 135%;
+    display: inline-block;
+    border: 0;
+    outline: none;
+    font-weight: 400;
+    background-color:transparent;
+    padding: 0;
+    color:#505050;
+    line-height:48px;
+    padding-right: 75px;
+    width: 94%;
+   }
+   .blocker {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 111%;
+	height: 100%;
+	overflow: auto;
+	z-index: 1;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: #000;
+	background-color: rgba(0, 0, 0, .75);
+	text-align: center;
+}
+
+.blocker:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.05em;
+}
+
+.blocker.behind {
+	background-color: transparent
+}
